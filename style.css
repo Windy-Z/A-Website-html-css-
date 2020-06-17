@@ -1,0 +1,437 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: "Myriad Pro";
+}
+body{
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+	width: 1600px;
+}
+.header{
+	width: 1600px;
+	height: 990px;
+	background-image: url(pic/header-background.jpg);
+}
+h1{
+	padding-top: 212px;
+	font-size: 62px;
+	color: #ffffff;
+}
+.headerIntroduction{
+	padding-top: 54px;
+	font-size: 20px;
+	color: #ffffff;
+	width: 768px;
+	margin: 0 auto;
+	line-height: 30px;
+}
+
+/* Sign up */
+.signUp{
+	width: 971px;
+	height: 251px;
+	margin: 80px auto 0 auto;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	background-color: transparent;
+}
+.createAccountTitle{
+	padding-top: 60px;
+	font-size: 16px;
+	color: #ffffff;
+	width: 208px;
+	margin: 0 auto;
+}
+.createAccountSubtitle{
+	padding-top: 19px;
+	font-size: 12px;
+	color: #ffffff;
+	width: 148px;
+	margin: 0 auto;
+	opacity: 0.3;
+}
+.inputEmail, .inputPassword{
+	width: 288px;
+	height: 50px;
+	margin: 38px 15px 0 15px;
+	padding: 0 1em;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	background-color: transparent;
+	font-size: 12px;
+	color: rgba(255, 255, 255, 0.2);
+}
+.submit{
+	width: 126px;
+	height: 52px;
+	margin: 38px 15px 0 15px;
+	font-size: 12px;
+	border: 0px;
+}
+.submit:hover{
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.submit:active{
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.description01{
+	height: 710px;
+	border-bottom: 1px solid #e7e7e7;
+}
+.BoatloadsOfAwesome{
+	font-size: 14px;
+	padding-top: 90px;
+}
+.totalFeature{
+	font-size: 42px;
+	width: 770px;
+	height: 94px;
+	margin: 0 auto 84px auto;
+	padding-top: 38px;
+}
+.feature1 img{
+	float: left;
+}
+.featureDescription{
+	width: 372px;
+}
+.feature1 .featureDescription{
+	float: left;
+	margin-left: 25px;
+}
+.feature2 img{
+	float: right;
+	margin-right: 25px;
+}
+.feature2 .featureDescription{
+	float: right;
+	
+}
+.features h3{
+	color: #141414;
+	font-size: 20px;
+	text-align: left;
+}
+.features p{
+	height: 102px;
+	font-size: 16px;
+	color: #797979;
+	text-align: left;
+}
+.feature1{
+	float: left;
+	margin-left: 294px;
+}
+.feature2{
+	float: right;
+	margin-right: 294px;
+}
+
+.callToAction{
+	width: 1600px;
+	height: 794px;
+	background-image: url(pic/callToAction.jpg);
+}
+.callToActionText{
+	padding-top: 182px;
+	padding-left: 315px;
+}
+.callToAction h3{
+	font-size: 42px;
+	font-weight: normal;
+	color: #ffffff;
+	width: 369px;
+	text-align: left;
+}
+.callToAction p{
+	padding-top: 86px;
+	font-size: 18px;
+	width: 369px;
+	text-align: left;
+	color: rgba(255, 255, 255, 0.7);
+}
+.callToActionText div{
+	text-align: left;
+	font-size: 12px;
+}
+#checkOutFeatures{
+	margin-right: 30px;
+}
+#checkOutFeatures:hover, #tryProductForFree:hover{
+	width: 238px;
+	height: 58px;
+	color: black;
+	background-color: #ffffff;
+	border: 1px solid #ffffff;
+	margin-top: 50px;
+}
+#checkOutFeatures, #tryProductForFree{
+	width: 238px;
+	height: 58px;
+	color: #ffffff;	
+	background-color: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	margin-top: 50px;
+}
+.showExample{
+	width: 634px;
+	height: 600px;
+	background-image: url("pic/ipad.gif");
+	float: right;
+	margin: 97px 0;
+	text-align: right;
+}
+.showExample img{
+	margin: 29px 0;
+}
+
+.description02{
+	height: 580px;
+	background-color: white;
+	border-bottom: 1px solid #e7e7e7;
+	margin: 0 305px;
+}
+.description02 h3{
+	font-weight: normal;
+	font-size: 42px;
+	margin-top: 98px;
+	margin-bottom: 90px;
+}
+.feature{
+	display: inline-block;
+	width: 270px;
+	height: 280px;
+	margin: 0 25px;
+	text-decoration: none;
+	font-size: 16px;
+	color: #a0a0a0;	
+	vertical-align: top;
+}
+.feature img{
+	margin-bottom: 42px;
+}
+
+.description03{
+	background-color: white;
+	border-bottom: 1px solid #e7e7e7;
+	padding-top: 113px;
+	padding-bottom: 113px;
+}
+.description03_01{
+	width: 984px;
+	height: 350px;
+	margin: 0 auto;
+}
+.description03_01 img{
+	float: left;
+}
+.description03_01 div{
+	width: 310px;
+	float: right;
+}
+.description03_01 h3, .description03_02 h3{
+	font-size: 20px;
+	font-weight: normal;
+	margin-top: 80px;
+	margin-bottom: 40px;
+	text-align: left;
+}
+.description03_01 p, .description03_02 p{
+	font-size: 16px;
+	text-align: left;
+	color: #797979;
+}
+.description03_02{
+	width: 984px;
+	height: 350px;
+	margin: 81px auto 0 auto;
+}
+.description03_02 img{
+	float: right;
+}
+.description03_02 div{
+	width: 310px;
+	float: left;
+}
+
+
+.team{
+	padding-top: 108px;
+	padding-left: 295px;
+	padding-right: 295px;
+	padding-bottom: 100px;
+	border-bottom: 1px solid #e7e7e7; 
+}
+.team h3{
+	font-size: 42px;
+	font-weight: normal;
+}
+.team p{
+	font-size: 18px;
+	margin: 40px auto 50px auto;
+	width: 696px;
+	text-align: center;
+	color: #797979;
+}
+.teamMember{
+	width: 470px;
+	height: 340px;
+	display: inline-block;
+	margin: 16px;
+	position: relative;
+}
+.member1{
+	background-image: url(pic/1.jpg);
+}
+.member2{
+	background-image: url(pic/2.jpg);
+}
+.member3{
+	background-image: url(pic/3.jpg);
+}
+.member4{
+	background-image: url(pic/4.jpg);
+}
+.socialLink{
+	width: 470px;
+	height: 340px;
+	background-color: rgba(20,20,20,0.65);
+	position: absolute;
+	display: none;
+}
+.teamMember:hover .socialLink{
+	display: block;
+}
+.socialLink h3{
+	color: #ffffff;
+	font-size: 20px;
+	padding-top: 110px;
+}
+.socialLink p{
+	font-size: 12px;
+	color: rgba(255, 255, 255, 0.4);
+	margin: 20px 0 40px 0;
+	width: 470px;
+}
+.socialLink img{
+	opacity: 0.75;
+	margin: 0 15px;
+}
+
+.contact{
+	padding-top: 74px;
+	padding-bottom: 70px;
+}
+.contact form{
+	width: 470px;
+	height: 600px;
+	border: 1px solid #e7e7e7; 
+	display: inline-block;
+	vertical-align: top;
+}
+.contact form p{
+	margin-top: 50px;
+	margin-bottom: 36px;
+	font-size: 16px;
+}
+.contact form input{
+	opacity: 0.5;
+	margin: 15px 0;
+	border: 1px solid #e7e7e7; 
+}
+#E-mail, #Subject{
+	width: 340px;
+	height: 24px;
+	padding: 1em;
+}
+#Message{
+	width: 340px;
+	height: 120px;
+	padding: 1em;
+	opacity: 0.5;
+	border: 1px solid #e7e7e7; 
+}
+#send{
+	width: 370px;
+	height: 46px;
+	color: #ffffff;
+	background-color: #000000;
+	opacity: 1;
+}
+#send:hover{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+#send:active{
+	background-color: #ffffff;
+	color: #000000;
+}
+.contacts{
+	width: 372px;
+	height: 600px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	margin-left: 136px;
+}
+.contacts h3{
+	font-weight: normal;
+	font-size: 42px;
+	margin-top: 88px;
+}
+.contactsText{
+	margin-top: 30px;
+	margin-bottom: 55px;
+	color: #797979;
+}
+.map, .phone, .mail{
+	width: 372px;
+	height: 26px;
+	margin: 15px 0;
+	display: flex;
+	align-items: center;
+}
+.contacts img{
+	align-items: center;
+	float: left;
+}
+.cpntacts p{
+	font-size: 16px;
+	float: left;
+}
+.map p, .phone p, .mail p{
+	padding: auto 0 auto 16px;
+	padding-top: 6px;
+	margin-left: 16px;
+	text-align: left;
+}
+
+
+.footer{
+	background-color: #000000;
+	padding-top: 86px;
+	padding-bottom: 125px;
+}
+.menu{
+	width: 300px;
+	height: 200px;
+	text-align: left;
+	display: inline-block;
+	vertical-align: top;
+}
+.menu h3{
+	color: #ffffff;
+	padding-bottom: 24px;
+}
+.menuText{
+	text-decoration: none;
+	display: block;
+	color: rgba(255, 255, 255, 0.3);
+	padding-bottom: 24px;
+}
+.socialsButton{
+	display: inline;
+	opacity: 0.3;
+}
